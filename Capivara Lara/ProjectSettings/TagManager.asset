@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - "Pl\xE1stico"
+  - Vidro
+  - Metal
+  - Papel
   layers:
   - Default
   - TransparentFX
