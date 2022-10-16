@@ -8,7 +8,17 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void PlayGame()
     {
-        Console.WriteLine("Registrando");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("QUIT!");
+        Application.Quit();
+    }
+
+    public void BackMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
