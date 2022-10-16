@@ -13,26 +13,7 @@ namespace Assets {
 
             LixosColetados++;
             
-            if(LixosColetados == 2)
-                FalaCapivara(2);
         }
 
-        public static void FalaCapivara(int tipoFrase)
-        {
-            switch (tipoFrase)
-            {
-                case 1://Instruções
-                    Console.WriteLine("Minha casa está super poluida, você poderia me ajudar a limpar?");
-                    break;
-                case 2://Insentivo
-                    Console.WriteLine("Muito bem!");
-                    break;
-                case 3://Lixo Errado
-                    Console.WriteLine("Vish! Errou a lixeira.");
-                    break;
-                default:
-                    break;
-            }
-        }
     }
 }
