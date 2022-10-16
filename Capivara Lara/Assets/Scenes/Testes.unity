@@ -295,6 +295,7 @@ EdgeCollider2D:
   - {x: 3.6009018, y: -0.706995}
   - {x: 4.7060184, y: -0.5576229}
   - {x: 7.4615974, y: -0.5980835}
+  - {x: 7.7310495, y: -0.61936665}
   - {x: 8.910079, y: -0.7124939}
   - {x: 9.678099, y: -0.8714571}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -312,7 +313,7 @@ GameObject:
   - component: {fileID: 405769236}
   - component: {fileID: 405769235}
   - component: {fileID: 405769238}
-  - component: {fileID: 405769237}
+  - component: {fileID: 405769239}
   m_Layer: 0
   m_Name: lixo_metal
   m_TagString: Untagged
@@ -387,18 +388,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &405769237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405769234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f008b5a2a190ab4e8fb4aaa028f5475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &405769238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -425,6 +414,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5138187, y: 0.330333}
   m_EdgeRadius: 0
+--- !u!114 &405769239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405769234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8f8adb833916c48a266d4a05346ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ GameObject:
   - component: {fileID: 924226265}
   - component: {fileID: 924226264}
   - component: {fileID: 924226267}
-  - component: {fileID: 924226266}
+  - component: {fileID: 924226268}
   m_Layer: 0
   m_Name: lixo_vidro
   m_TagString: Untagged
@@ -719,18 +720,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &924226266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924226263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f008b5a2a190ab4e8fb4aaa028f5475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &924226267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -757,6 +746,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5138187, y: 0.330333}
   m_EdgeRadius: 0
+--- !u!114 &924226268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924226263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05af3567c3930984cb0c36112f5e8d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &959708709
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +853,7 @@ GameObject:
   - component: {fileID: 1446279762}
   - component: {fileID: 1446279761}
   - component: {fileID: 1446279764}
-  - component: {fileID: 1446279763}
+  - component: {fileID: 1446279765}
   m_Layer: 0
   m_Name: lixo_papel
   m_TagString: Untagged
@@ -927,18 +928,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1446279763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446279760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f008b5a2a190ab4e8fb4aaa028f5475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1446279764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -965,6 +954,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5138187, y: 0.330333}
   m_EdgeRadius: 0
+--- !u!114 &1446279765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446279760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e375e8787ef3d49982dc2af3b1abf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1895669770
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,11 +978,10 @@ GameObject:
   - component: {fileID: 1895669773}
   - component: {fileID: 1895669771}
   - component: {fileID: 1895669775}
-  - component: {fileID: 1895669776}
   - component: {fileID: 1895669777}
   m_Layer: 0
   m_Name: prop_plastico2
-  m_TagString: Untagged
+  m_TagString: "Pl\xE1stico"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1072,7 +1072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895669770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.53, y: -2.54, z: 0}
+  m_LocalPosition: {x: 0.51, y: -1.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1089,18 +1089,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26b72ae1c74df5c4f9964db581bb3071, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1895669776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895669770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f9c8dd81c8fd06419b4d5be65fa7086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &1895669777
