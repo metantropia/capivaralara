@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "Pl\xE1stico"
   layers:
   - Default
   - TransparentFX
