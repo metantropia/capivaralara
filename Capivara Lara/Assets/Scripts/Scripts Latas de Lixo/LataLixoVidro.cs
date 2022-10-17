@@ -32,6 +32,7 @@ public class LataLixoVidro : MonoBehaviour
                     ChatBubble.GetChatBuBbleScript("Dale!");
                     break;
             }
+            
 
             animator.SetInteger("lixosColetados", ProgressoObjetivo.GetLixosColetados());
         } else {

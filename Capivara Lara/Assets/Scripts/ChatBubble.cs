@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEditor;
+using Unity.VisualScripting;
 
 public class ChatBubble : MonoBehaviour
 {
