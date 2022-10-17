@@ -16,7 +16,7 @@ namespace Assets.Scripts {
         //private static Button ;
 
         void Update() {
-            if (ProgressoObjetivo.GetLixosColetados() > 3) {
+            if (ProgressoObjetivo.GetLixosColetados() > 17) {
                 albumFinalSpriteRenderer = transform.Find("album_final").GetComponent<SpriteRenderer>();
                 albumFinalSpriteRenderer.enabled = true;
 
@@ -28,8 +28,6 @@ namespace Assets.Scripts {
 
                 livroSpriteRenderer = transform.Find("livro_final").GetComponent<SpriteRenderer>();
                 livroSpriteRenderer.enabled = true;
-
-
             }
         }
     }
